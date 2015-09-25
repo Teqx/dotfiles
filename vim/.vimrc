@@ -98,6 +98,9 @@ set showmatch
 set shortmess+=I
 
 " syntax highlighting and colors
+if $COLORTERM == 'gnome-terminal'
+  set t_Co=256
+endif
 syntax on
 colorscheme sourcerer
 filetype off
@@ -124,7 +127,7 @@ set cursorcolumn
 if 1 " boolean for plugin loading
   set rtp+=~/.vim/bundle/Vundle.vim
   call vundle#begin()
-  Plugin 'gmarik/Vundle.vim'
+  Plugin 'VundleVim/Vundle.vim'
   Plugin 'Valloric/YouCompleteMe'
   Plugin 'scrooloose/syntastic'
   Plugin 'airblade/vim-gitgutter'
@@ -143,6 +146,7 @@ if 1 " boolean for plugin loading
   let g:syntastic_auto_loc_list = 1
   let g:syntastic_check_on_open = 1
   let g:syntastic_check_on_wq = 0
+  let g:ycm_key_list_select_completion = ['<TAB>', '<Down>']
   highlight SyntasticErrorSign ctermfg=red ctermbg=237
   highlight SyntasticWarningSign ctermfg=yellow ctermbg=237
   highlight SyntasticStyleErrorSign ctermfg=red ctermbg=237
