@@ -1,0 +1,4 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/google/src/cloud/ianbmac/cronut-test-perf/google3/javascript/ads/ddm/dbm/e2e/helpers'
+let g:netrw_dirhist_2='/google/src/cloud/ianbmac/cronut-test-perf/google3/javascript/ads/ddm/dbm/e2e'

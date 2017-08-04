@@ -107,9 +107,9 @@ hi link pythonDecoratorFunction pythonDecorator
 
 "  █▓▒░ 256 colors 
 hi Normal                 cterm=NONE             ctermbg=NONE  ctermfg=145
-hi ColorColumn            cterm=NONE             ctermbg=16    ctermfg=NONE
+hi ColorColumn            cterm=NONE             ctermbg=233   ctermfg=None
 hi Cursor                 cterm=NONE             ctermbg=241   ctermfg=fg
-hi CursorColumn           cterm=NONE             ctermbg=16    ctermfg=fg
+hi CursorColumn           cterm=NONE             ctermbg=234   ctermfg=None
 hi CursorLine             cterm=NONE             ctermbg=236   ctermfg=fg
 hi DiffAdd                cterm=NONE             ctermbg=71    ctermfg=16
 hi DiffDelete             cterm=NONE             ctermbg=124   ctermfg=16
@@ -120,7 +120,7 @@ hi ErrorMsg               cterm=bold             ctermbg=NONE  ctermfg=203
 hi FoldColumn             cterm=bold             ctermbg=239   ctermfg=66
 hi Folded                 cterm=NONE             ctermbg=16    ctermfg=60
 hi IncSearch              cterm=bold             ctermbg=202   ctermfg=231
-hi LineNr                 cterm=NONE             ctermbg=237   ctermfg=102
+hi LineNr                 cterm=NONE             ctermbg=235   ctermfg=239
 hi MatchParen             cterm=bold             ctermbg=NONE  ctermfg=226
 hi ModeMsg                cterm=bold             ctermbg=NONE  ctermfg=145
 hi MoreMsg                cterm=bold             ctermbg=234   ctermfg=29
